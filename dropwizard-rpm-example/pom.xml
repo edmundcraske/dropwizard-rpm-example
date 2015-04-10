@@ -67,6 +67,7 @@
 				<extensions>true</extensions>
 				<executions>
 					<execution>
+						<phase>package</phase>
 						<id>generate-rpm</id>
 						<goals>
 							<goal>rpm</goal>
