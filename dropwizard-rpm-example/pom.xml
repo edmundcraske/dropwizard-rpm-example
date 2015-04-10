@@ -121,11 +121,10 @@
 						<configuration>
 							<artifactItems>
 								<artifactItem>
-									<groupId>org.codehaus.mojo</groupId>
-									<artifactId>rpm-maven-plugin</artifactId>
-									<version>2.1-alpha-4</version>
+									<groupId>${project.groupId}</groupId>
+									<artifactId>${project.artifactId}</artifactId>
+									<version>${project.version}</version>
 									<type>rpm</type>
-									<overWrite>false</overWrite>
 								</artifactItem>
 							</artifactItems>
 							<outputDirectory>../rpms</outputDirectory>
