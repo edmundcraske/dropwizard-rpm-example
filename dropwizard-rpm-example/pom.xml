@@ -124,7 +124,7 @@
 									<groupId>${project.groupId}</groupId>
 									<artifactId>${project.artifactId}</artifactId>
 									<version>${project.version}</version>
-									<type>rpm</type>
+									<type>attached-rpm</type>
 								</artifactItem>
 							</artifactItems>
 							<outputDirectory>../rpms</outputDirectory>
